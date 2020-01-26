@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8"/>
         <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="functions.js"></script>
     </head>
     <body>
         <div class="container">
@@ -24,7 +25,7 @@
                     </div>
                     <div class="menu_point">
                         <span class="point">КОНТАКТЫ</span>
-                        <input type ="image" src="down.svg" class="down"/>
+                        <input type ="image" src="down.svg" class="down" id="down" onclick="show_contacts()"/>
                     </div>
                     <div class="menu_point">
                         <span class="point">ПРАЙСЛИСТ</span>
@@ -34,6 +35,15 @@
                         <span class="point">ОТЗЫВЫ</span>
                         <input type ="image" src="down.svg" class="down"/>
                     </div>
+            </div>
+            <div class="invisible" id="contacts">
+                <div class="contact"><img src="telegram.svg" class="contact_icon"/></div>
+                <div class="contact"><img src="vk.svg" class="contact_icon"/></div>
+                <div class="contact"><img src="facebook.svg" class="contact_icon"/></div>
+                <div class="contact">A1: +375-29-970-89-61</div>
+                <div class="contact"><img src="viber.svg" class="contact_icon"/></div>
+                <div class="contact"><img src="odnoklassniki.svg" class="contact_icon"/></div>
+                <div class="contact"><img src="skype.svg" class="contact_icon"/></div>
             </div>
         </div>
     </body>
