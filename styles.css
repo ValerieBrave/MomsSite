@@ -136,3 +136,24 @@ span.point
     color: rgb(70, 70, 70);
     font-size: 22px;
 }
+.line
+{
+    margin-top: 80px;
+    font-family: "century gothic";
+    color: rgb(44, 44, 44);
+    font-size: 20px;
+    
+}
+.basic_info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.info_line
+{
+    height: 50px;
+    color: rgb(27, 27, 27);
+    font-family: "century gothic";
+}
