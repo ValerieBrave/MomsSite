@@ -65,6 +65,12 @@ span.point
     width: 500px;
     padding-left: 80px;
 }
+.logo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .line1, .line2, .line3
 {
     color:white;
@@ -78,13 +84,7 @@ span.point
 .line3
 {
     color: rgb(192, 190, 190);
-}
-.line4
-{
-    text-decoration: underline;
-    color: rgb(223, 219, 219);
-    font-size: 14px;
-    font-family: "century gothic";
+    font-size: small;
 }
 .invisible
 {
@@ -109,4 +109,30 @@ span.point
 .contact_icon
 {
     height:40px;
+}
+.basic
+{
+    height: 600px;
+    background-color: white;
+}
+.quote
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.words
+{
+    margin-top: 50px;
+    font-family: "century gothic";
+    color: rgb(44, 44, 44);
+    font-size: 30px;
+}
+.author
+{
+    width: 50%;
+    text-align: right;
+    font-family: "century gothic";
+    color: rgb(70, 70, 70);
+    font-size: 22px;
 }
