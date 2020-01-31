@@ -153,7 +153,15 @@ span.point
 }
 .info_line
 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     height: 50px;
     color: rgb(27, 27, 27);
     font-family: "century gothic";
+}
+.info_icon
+{
+    height:40px;
+    margin-right: 10px;
 }
