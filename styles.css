@@ -165,3 +165,56 @@ span.point
     height:40px;
     margin-right: 10px;
 }
+.transport_block
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(car-background-trial.jpg);
+    background-size: cover;
+    margin-top:50px;
+    height: 600px;
+}
+.transport_caption
+{
+    /* text-align: center; */
+    font-family: "century gothic";
+    color:white;
+}
+.transport_info_lines
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+}
+.transport_info_line
+{
+    font-family: "century gothic";
+    color:white;
+}
+.transport_info_lists
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.transport_info_list
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.transport_info_list_top
+{
+    font-family: "century gothic";
+    color:white;
+    font-size: 20px;
+}
+.transport_info_list_item
+{
+    font-family: "century gothic";
+    color:white;
+    font-size: 15px;
+}
