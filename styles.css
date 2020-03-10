@@ -1,11 +1,17 @@
 body
 {
-    margin: unset;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
 .container
 {
     display: flex;
     flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
 }
 .top
 {
@@ -170,7 +176,7 @@ span.point
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: baseline; */
     background-image: url(car-background-trial.jpg);
     background-size: cover;
     margin-top:50px;
@@ -178,21 +184,29 @@ span.point
 }
 .transport_caption
 {
-    /* text-align: center; */
+    text-align: center;
+    padding-top: 8px;
     font-family: "century gothic";
-    color:white;
+    background-color:rgba(255, 255, 255, 0.4) ; 
+    height: 40px;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
 }
 .transport_info_lines
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     width: 95%;
+    height: 25%;
+    padding-left: 5%;
 }
 .transport_info_line
 {
     font-family: "century gothic";
     color:white;
+    text-align: inherit;
 }
 .transport_info_lists
 {
@@ -204,17 +218,33 @@ span.point
 {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
 }
 .transport_info_list_top
 {
     font-family: "century gothic";
     color:white;
     font-size: 20px;
+    
 }
 .transport_info_list_item
 {
     font-family: "century gothic";
     color:white;
     font-size: 15px;
+}
+.apply
+{
+    background-color: rgb(37, 201, 45); /* Green */
+    border: none;
+    color: white;
+    margin-top: 5%;
+    width: 75%;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "century gothic";
+    border-radius: 12px;
 }
