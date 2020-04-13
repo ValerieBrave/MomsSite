@@ -437,7 +437,7 @@ span.point
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 95%;
     height: 25%;
     padding-left: 5%;
@@ -458,11 +458,24 @@ span.point
     width: 90%;
     background-color: rgba(248, 255, 246, 0.76);
     padding: 0;
+    
+}
+table, td
+{
     border: 1px solid green;
+    border-collapse: collapse;
+    font-family: "century gothic";
+    text-align: center;
+}
+.col1
+{
+    height: 40px;
+    
 }
 .tab_header
 {
     background-color: rgb(16, 180, 16);
+    
     color: white;
     text-align: center;
     font-family: "century gothic";
