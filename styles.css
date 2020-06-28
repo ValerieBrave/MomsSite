@@ -486,6 +486,44 @@ table, td
     font-weight: bold;
     text-align: center;
 }
+/*--------------------------------------------------------*/
+.pricelist_block
+{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pricelist_caption
+{
+    text-align: center;
+    padding-top: 8px;
+    font-family: "century gothic";
+    background-color:rgba(147, 214, 245, 0.6) ; 
+    height: 40px;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+.price_section
+{
+    display: flex;
+    justify-content: space-around;
+    height: 46%;
+}
+.section_row1
+{
+    width: 45%;
+    border: 1px solid black;
+}
+.section_row2
+{
+    width: 24%;
+    border: 1px solid black;
+}
+.section_caption
+{
+    text-align: center;
+}
 /* ------------------------------------------------------- */
 .comments
 {
