@@ -493,13 +493,15 @@ table, td
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url(sky-trial2.jpg);
+    background-size: cover;
 }
 .pricelist_caption
 {
     text-align: center;
     padding-top: 8px;
     font-family: "century gothic";
-    background-color:rgba(147, 214, 245, 0.6) ; 
+    background-color:rgba(142, 199, 225, 0.6) ; 
     height: 40px;
     font-size: 28px;
     color: rgb(255, 255, 255);
@@ -509,20 +511,32 @@ table, td
     display: flex;
     justify-content: space-around;
     height: 46%;
+    
 }
 .section_row1
 {
     width: 45%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: rgba(255, 255, 255, 0.6);
+    /* margin-bottom: 50%; */
 }
 .section_row2
 {
     width: 24%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: rgba(255, 255, 255, 0.6);
 }
 .section_caption
 {
     text-align: center;
+    height: 40px;
+    font-family: "century gothic";
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+.price_table_row
+{
+    font-size: 15px;
 }
 /* ------------------------------------------------------- */
 .comments

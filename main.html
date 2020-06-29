@@ -29,7 +29,7 @@
                     </div>
                     <div class="menu_point">
                         <span class="point">ЦЕНЫ</span>
-                        <input type ="image" src="down.svg" class="down"/>
+                        <a href="#pricelist"><input type ="image" src="down.svg" class="down"/></a>
                     </div>
                     <div class="menu_point">
                         <span class="point">ОТЗЫВЫ</span>
@@ -315,39 +315,43 @@
                     </table>
                 </div>
             </div>
-            <div class="pricelist_block">
+            <div class="pricelist_block"><a name="pricelist"></a>
                 <div class="pricelist_caption">ЦЕНЫ</div>
                 <div class="price_section">
                     <div class="section_row1">
-                        <div class="section_caption">Примерная стоимость годового договора страхования для нового автомобиля</div>
+                        <div class="section_caption">Стоимость страхования животных</div>
                         <table>
-                            <tr>
-                                <td>Варианты страхования</td>
-                                <td>Стоимость</td>
+                            <tr class="tab_header">
+                                <td>Объект страхования</td>
+                                <td>Средний страховой взнос в год, рублей</td>
+                                <td>Страховая сумма, рублей</td>
                             </tr>
-                            <tr>
-                                <td>ОСГО ВТС</td>
-                                <td>35,40 евро</td>
+                            <tr class="price_table_row">
+                                <td>Сельскохозяйственные животные</td>
+                                <td>138</td>
+                                <td>1 800</td>
                             </tr>
-                            <tr>
-                                <td>Комплексное страхование</td>
-                                <td>165,60 евро</td>
+                            <tr class="price_table_row">
+                                <td>Породистые, племенные животные</td>
+                                <td>30</td>
+                                <td>1 000</td>
                             </tr>
-                            <tr>
-                                <td>АВТОКАСКО</td>
-                                <td>430 евро + ОСГО ВТС</td>
+                            <tr class="price_table_row">
+                                <td>Ответственность за вред, причиненный животным</td>
+                                <td>10</td>
+                                <td>1 000</td>
                             </tr>
                         </table>
                     </div>
                     <div class="section_row1">
                         <div class="section_caption">Стоимость технического ассистанса для автомобилей, зарегистрированных в РБ</div>
                         <table>
-                            <tr>
+                            <tr class="tab_header">
                                 <td rowspan="2">Вариант страхования</td>
                                 <td rowspan="2">Страховая сумма, евро</td>
                                 <td colspan="7">Срок действия договора страхования</td>
                             </tr>
-                            <tr>
+                            <tr class="tab_header">
                                 <td><span style="writing-mode: vertical-lr; transform: rotate(180deg);">3-6 дней</span></td>
                                 <td><span style="writing-mode: vertical-lr; transform: rotate(180deg);">15 дней</span></td>
                                 <td><span style="writing-mode: vertical-lr; transform: rotate(180deg);">1 мес.</span></td>
@@ -356,7 +360,7 @@
                                 <td><span style="writing-mode: vertical-lr; transform: rotate(180deg);">6 мес.</span></td>
                                 <td><span style="writing-mode: vertical-lr; transform: rotate(180deg);">1 год</span></td>
                             </tr>
-                            <tr>
+                            <tr class="price_table_row">
                                 <td>Стандарт</td>
                                 <td>1000</td>
                                 <td>-</td>
@@ -367,7 +371,7 @@
                                 <td>36</td>
                                 <td>50</td>
                             </tr>
-                            <tr>
+                            <tr class="price_table_row">
                                 <td>Европейский</td>
                                 <td>3000</td>
                                 <td>8</td>
@@ -378,7 +382,7 @@
                                 <td>109</td>
                                 <td>150</td>
                             </tr>
-                            <tr>
+                            <tr class="price_table_row">
                                 <td>Европа (мини)</td>
                                 <td>1000</td>
                                 <td>3</td>
@@ -389,7 +393,7 @@
                                 <td>36</td>
                                 <td>50</td>
                             </tr>
-                            <tr>
+                            <tr class="price_table_row">
                                 <td>ЕвроСтандарт</td>
                                 <td>3000</td>
                                 <td>-</td>
@@ -406,15 +410,88 @@
                 <div class="price_section">
                     <div class="section_row2">
                         <div class="section_caption">Стоимость комплексного страхования квартиры</div>
+                        <table>
+                            <tr class="tab_header">
+                                <td>Средний страховой взнос в год, рублей</td>
+                                <td>Страховая сумма, рублей</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>36</td>
+                                <td>6 000</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>60</td>
+                                <td>10 000</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>120</td>
+                                <td>20 000</td>
+                            </tr>
+                        </table>
                     </div>
                     <div class="section_row2">
                         <div class="section_caption">Стоимость страхования жилых домов и коттеджей</div>
+                        <table>
+                            <tr class="tab_header">
+                                <td>Средний страховой взнос в год, рублей</td>
+                                <td>Страховая сумма, рублей</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>30</td>
+                                <td>5 000</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>60</td>
+                                <td>10 000</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>400</td>
+                                <td>100 000</td>
+                            </tr>
+                        </table>
                     </div>
                     <div class="section_row2">
                         <div class="section_caption">Стоимость страхования домовладения</div>
+                        <table>
+                            <tr class="tab_header">
+                                <td>Средний страховой взнос в год, рублей</td>
+                                <td>Страховая сумма, рублей</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>50</td>
+                                <td>5 000</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>100</td>
+                                <td>10 000</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>200</td>
+                                <td>20 000</td>
+                            </tr>
+                        </table>
                     </div>
                     <div class="section_row2">
-                        <div class="section_caption">Стоимость страхования животных</div>
+                        <div class="section_caption">Примерная стоимость годового договора страхования для нового автомобиля</div>
+                        <table>
+                            <tr class="tab_header">
+                                <td>Варианты страхования</td>
+                                <td>Стоимость</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>ОСГО ВТС</td>
+                                <td>35,40 евро</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>Комплексное страхование</td>
+                                <td>165,60 евро</td>
+                            </tr>
+                            <tr class="price_table_row">
+                                <td>АВТОКАСКО</td>
+                                <td>430 евро + ОСГО ВТС</td>
+                            </tr>
+                        </table>
+                        
                     </div>
                 </div>
             </div>
